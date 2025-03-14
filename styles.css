@@ -1,0 +1,292 @@
+/* Apply Avenir Next Bold */
+body {
+  font-family: 'avenir-next', sans-serif;
+  font-weight: 700; /* Bold weight */
+}
+
+/* Example: Apply to specific elements */
+h1, h2, h3, .logo {
+  font-family: 'avenir-next', sans-serif;
+  font-weight: 700; /* Bold weight */
+}
+
+/* General Styles */
+body {
+  font-family: 'Playfair Display', serif;
+  margin: 0;
+  padding: 0;
+  background: url('MarkBackground.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Navigation Bar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: rgba(255, 204, 0, 0.8);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .logo {
+  font-family: 'Cinzel', serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar .nav-links li {
+  margin: 0 15px;
+}
+
+.navbar .nav-links a {
+  font-family: 'Cinzel', serif;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-links a:hover {
+  color: #ff6600;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 50px 50px;
+  background: rgba(255, 255, 255, 0.8);
+  margin: 150px;
+  border-radius: 100px;
+}
+/* About Section Styling */
+.about-section {
+  padding: 50px 20px;
+  background: rgba(255, 255, 255, 0.9);
+  margin: 15px;
+  border-radius: 100px;
+  text-align: left;
+}
+
+.about-section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #ff6600; /* Mango orange */
+}
+
+.about-section h3 {
+  font-size: 24px;
+  margin-top: 20px;
+  color: #ff6600; /* Mango orange */
+}
+
+.about-section p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.about-section ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.about-section ul li {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}	
+.hero h1 {
+  font-family: 'Cinzel', serif;
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #ff6600;
+}
+
+.hero p {
+  font-size: 24px;
+  color: #333;
+}
+
+/* Product Section */
+.product-section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.product-container {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 50px 20px;
+  border-radius: 100px;
+  max-width: 1000px;
+  margin: auto;
+  height: autopx;
+  box-shadow:0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.product-name {
+  font-family: 'Cinzel', serif;
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #ff6600;
+}
+
+.product-image img {
+  max-width: 100%;
+  border-radius: 10px;
+  border: 3px solid #ffcc00;
+}
+
+.product-description {
+  font-size: 18px;
+  margin: 20px 0;
+  color: #333;
+}
+
+.product-price {
+  font-family: 'Cinzel', serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff6600;
+}
+
+/* Origin and History Section */
+.origin-section {
+  padding: 100px 20px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.9);
+  margin: 100px;
+  border-radius: 100px;
+}
+
+.origin-section h2 {
+  font-family: 'Cinzel', serif;
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #ff6600;
+}
+
+.origin-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.origin-content p {
+  margin-bottom: 20px;
+}
+
+/* Reviews Section */
+.reviews-section {
+  padding: 50px 20px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.9);
+  margin: 100px;
+  border-radius: 100px;
+}
+
+.review {
+  background: rgba(255, 204, 0, 0.1);
+  padding: 50px;
+  border-radius: 10px;
+  margin: 10px auto;
+  max-width: 600px;
+}
+
+.review p {
+  margin: 0;
+  color: #333;
+}
+
+/* FAQs Section */
+.faq-section {
+  padding: 50px 20px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.9);
+  margin: 20px;
+  border-radius: 100px;
+}
+
+.faq {
+  background: rgba(255, 204, 0, 0.1);
+  padding: 50px;
+  border-radius: 10px;
+  margin:50px auto;
+  max-width: 700px;
+}
+
+.faq h3 {
+  font-family: 'Cinzel', serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #ff6600;
+}
+
+.faq p {
+  margin: 0;
+  color: #333;
+}
+
+/* Contact Section */
+.contact-section {
+  padding: 50px 20px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.9);
+  margin: 350px;
+  border-radius: 100px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contact-form input, .contact-form textarea {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ffcc00;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.contact-form button {
+  padding: 10px;
+  background: #ff6600;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+  transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: #cc5200;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: rgba(255, 204, 0, 0.8);
+  margin-top: 50px;
+  color: #fff;
+.spacing {
+  margin-left: 500px; /* Adjust the spacing as needed */
+}
+}
